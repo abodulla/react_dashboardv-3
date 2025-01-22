@@ -6,6 +6,7 @@ import {
   ShoppingBag,
   ShoppingCart,
   TrendingUp,
+  User,
   Users,
 } from "lucide-react";
 import { useState } from "react";
@@ -25,6 +26,7 @@ const SIDEBAR_ITEMS = [
   { name: "Orders", icon: ShoppingCart, color: "#F59E0B", href: "/orders" },
   { name: "Analytics", icon: TrendingUp, color: "#3B82F6", href: "/analytics" },
   { name: "Settings", icon: Settings, color: "#6EE7B7", href: "/settings" },
+  { name: "Profile", icon: User, color: "#8B5CF6", href: "/profile" },
 ];
 
 const Sidebar = () => {
